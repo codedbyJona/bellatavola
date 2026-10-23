@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1b5e4b">
+    <meta name="description" content="Authentic Italian cuisine made with fresh, local ingredients. Join us at Bella Tavola for a memorable meal.">
+    <title>Bella Tavola | Authentic Italian Cuisine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Bella Tavola home">
+          <span class="brand-mark" aria-hidden="true">B</span>
+          <span>Bella <span class="brand-light">Tavola</span></span>
+        </a>
+        <input class="nav-checkbox" type="checkbox" id="nav-toggle" aria-label="Toggle navigation menu">
+        <label class="menu-toggle" for="nav-toggle" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="nav-links" id="primary-navigation">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#menu">Menu</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#reservation">Reservation</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-content container">
+          <p class="eyebrow hero-eyebrow">A little taste of Italy</p>
+          <h1 id="hero-title">Bella Tavola</h1>
+          <p class="hero-subtitle">Authentic Italian Cuisine</p>
+          <a class="button button-primary hero-button" href="#reservation">Reserve a Table <span aria-hidden="true">→</span></a>
+        </div>
+        <a class="scroll-cue" href="#menu" aria-label="Scroll to our menu"><span></span></a>
+      </section>
+
+      <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Made with amore</p>
+            <h2 id="menu-title">Our Menu</h2>
+            <p class="section-intro">A few of our favorite things, prepared fresh every day.</p>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-category">
+              <h3>Starters <span>01</span></h3>
+              <div class="dish-list">
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=500&q=85" alt="Bruschetta topped with tomato, basil, and olive oil" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Bruschetta</h4><span>$7.50</span></div>
+                    <p>Toasted bread with tomatoes, garlic and basil.</p>
+                  </div>
+                </article>
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=500&q=85" alt="Fresh Caesar salad with greens and parmesan" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Caesar Salad</h4><span>$8.50</span></div>
+                    <p>Fresh lettuce, parmesan and Caesar dressing.</p>
+                  </div>
+                </article>
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=85" alt="Warm tomato soup with herbs" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Tomato Soup</h4><span>$6.50</span></div>
+                    <p>Creamy tomato soup with fresh herbs.</p>
+                  </div>
+                </article>
+              </div>
+            </article>
+
+            <article class="menu-category">
+              <h3>Main Courses <span>02</span></h3>
+              <div class="dish-list">
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=500&q=85" alt="Grilled chicken served with vegetables" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Grilled Chicken</h4><span>$14.50</span></div>
+                    <p>Served with seasonal vegetables and potatoes.</p>
+                  </div>
+                </article>
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=500&q=85" alt="Creamy pasta carbonara topped with parmesan" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Pasta Carbonara</h4><span>$13.50</span></div>
+                    <p>Creamy sauce, pancetta and parmesan.</p>
+                  </div>
+                </article>
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=500&q=85" alt="Creamy mushroom risotto with herbs" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Risotto</h4><span>$13.00</span></div>
+                    <p>Creamy risotto with mushrooms and herbs.</p>
+                  </div>
+                </article>
+              </div>
+            </article>
+
+            <article class="menu-category">
+              <h3>Desserts <span>03</span></h3>
+              <div class="dish-list">
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=500&q=85" alt="A slice of classic tiramisu dusted with cocoa" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Tiramisu</h4><span>$6.50</span></div>
+                    <p>Classic Italian dessert layered with coffee.</p>
+                  </div>
+                </article>
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=500&q=85" alt="Cheesecake with fresh berry sauce" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Cheesecake</h4><span>$5.50</span></div>
+                    <p>Our creamy cheesecake with berry sauce.</p>
+                  </div>
+                </article>
+                <article class="dish-card">
+                  <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=500&q=85" alt="Panna cotta topped with fresh berries" loading="lazy">
+                  <div class="dish-info">
+                    <div class="dish-title"><h4>Panna Cotta</h4><span>$6.00</span></div>
+                    <p>Silky vanilla cream with fresh berries.</p>
+                  </div>
+                </article>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <div class="about-image-wrap">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=90" alt="Candlelit table set for dinner in an inviting Italian restaurant" loading="lazy">
+            <span class="image-caption">Gather around our table</span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">Our story</p>
+            <h2 id="about-title">About Us</h2>
+            <p class="about-lead">A family table, a generous pour, and recipes worth sharing.</p>
+            <p>Bella Tavola is a family-owned restaurant serving traditional Italian food made with fresh, local ingredients. We bring the warmth of our family kitchen to every plate, with simple seasonal flavors and a little Italian hospitality.</p>
+            <p>Come as you are, stay a little longer, and let us make you feel at home.</p>
+            <a class="text-link" href="#reservation">Come join us <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation-section section-pad" id="reservation" aria-labelledby="reservation-title">
+        <div class="container reservation-container">
+          <div class="section-heading">
+            <p class="eyebrow">Your table is waiting</p>
+            <h2 id="reservation-title">Make a Reservation</h2>
+            <p class="section-intro">We look forward to welcoming you.</p>
+          </div>
+          <form class="reservation-form">
+            <div class="form-field">
+              <label for="guest-name">Name</label>
+              <input id="guest-name" name="name" type="text" placeholder="Your name" autocomplete="name" required minlength="2">
+            </div>
+            <div class="form-field">
+              <label for="guest-email">Email</label>
+              <input id="guest-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="reservation-date">Date</label>
+              <input id="reservation-date" name="date" type="date" required>
+            </div>
+            <div class="form-field">
+              <label for="guest-count">Number of Guests</label>
+              <select id="guest-count" name="guests" required>
+                <option value="" disabled selected>Select guests</option>
+                <option value="1">1 guest</option>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+              </select>
+            </div>
+            <button class="button button-primary form-submit" type="submit">Reserve <span aria-hidden="true">→</span></button>
+          </form>
+          <p class="reservation-note">For parties of 7 or more, please call us at <a href="tel:+355680000000">+355 68 000 000</a>.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand footer-logo" href="#home">
+            <span class="brand-mark" aria-hidden="true">B</span>
+            <span>Bella <span class="brand-light">Tavola</span></span>
+          </a>
+          <p>Good food.<br>Good company.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Opening Hours</h2>
+          <p><span>Monday – Friday</span><span>12:00 – 22:00</span></p>
+          <p><span>Saturday</span><span>12:00 – 23:00</span></p>
+          <p><span>Sunday</span><span>Closed</span></p>
+        </div>
+        <div class="footer-column">
+          <h2>Find Us</h2>
+          <p>Via Tr 25<br>00100 Tirana, Albania</p>
+          <a href="tel:+35568000000">+355 68 000 000</a>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Bella Tavola</span>
+          <span>Made with <span class="footer-heart" aria-label="love">♥</span> in Albania</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
